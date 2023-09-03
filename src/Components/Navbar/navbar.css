@@ -50,10 +50,7 @@
     transition: 0.5s;
     border-bottom: 5px solid  #0095da;
   }
-  a {
-    text-decoration: none;
-    border-style: none;
-  }
+ 
   
   li {
     list-style: none;
@@ -62,39 +59,3 @@
   .hamburger-menu{
     display: none;
   }
-  /* @media (max-width: 1080px) {
-    .main-nav {
-      height: 8rem;
-      grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
-    }
-  
-    .logo,
-    .menu-link ul,
-    .social-media ul {
-      height: 8rem;
-    }
-    .hamburger-menu {
-        display: block;
-        font-size: 2.5rem;
-      }
-  }
-  @media (max-width: 998px) {
-    .main-nav {
-      height: 7rem;
-      grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
-    }
-  
-    .menu-link {
-      display: none;
-    }
-  
-    .logo,
-    .social-media ul {
-      height: 7rem;
-    }
-    .hamburger-menu {
-        display: inline;
-        font-size: 2.5rem;
-      }
-}
-   */
