@@ -27,16 +27,16 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/holidays" element={<Holidays/>}/>
           <Route path="/hotels" element={<Hotels/>}/>
-          {/* <Route path="/flights" element={<Flights/>}/> */}
+          
           <Route path="/gift-cards" element={<GiftCard/>}/>
           <Route path="/offers" element={<Offers/>}/>
           <Route path="/register" element={<Register/>}/>
           <Route path="/login" element={<Login/>}/>
-          {/* ***************************************** */}
+       
           <Route path="/hotels/list" element={<List/>}/>
           <Route path="/hotels/list/hotelpages" element={<HotelPage/>}/>
              <Route path="/hotels/hoteluserdetails" element={<HotelUserDetails/>}/>
-             {/* <Route path="/hotels/list/hotelpages/book" element={<BookingDetails/>}/> */}
+           
           
              <Route path="/details" element={<Detail/>}/>
              <Route path="/flight" element={<Search/>}/>

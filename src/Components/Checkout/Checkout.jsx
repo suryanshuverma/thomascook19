@@ -1,4 +1,4 @@
-import { toast } from "react-toastify";
+
 
 export const payment = async (amount) => {
   return new Promise((resolve) => {
@@ -37,20 +37,7 @@ export const payment = async (amount) => {
         name: "Thomas Cook",
         description: "Thanks for purchasing",
 
-        // handler: function (response) {
-        //   toast.success(`Payment Successful`, {
-        //     position: "top-center",
-        //     autoClose: 3000,
-        //     hideProgressBar: false,
-        //     closeOnClick: true,
-        //     pauseOnHover: true,
-        //     draggable: true,
-        //     progress: undefined,
-        //     theme: "light",
-        //   });
-
-        //   resolve(true); 
-        // },
+      
 
         prefill: {
           name: "Thomas Cook",

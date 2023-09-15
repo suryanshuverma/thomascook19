@@ -1,7 +1,7 @@
 import React from "react";
 import './holidays.css';
 import { useNavigate} from "react-router-dom";
-// import { cities } from "./cities";
+
 
 function Holidays() {
   const cities =  
@@ -17,7 +17,7 @@ function Holidays() {
 ]
 
 const navigate =useNavigate();
-// const {id} = useParams();
+
 
 
 
@@ -25,27 +25,22 @@ const navigate =useNavigate();
   const citii = cities.map((city) =>
   {
     const holidayPrice = city.price;
-    console.log(holidayPrice)
-  //  console.log( typeof(holidayPrice))
+    
+ 
     return(
-  // <div key={city.id}>
-  //   <h2>{city.country}</h2>
-  //   <h2>{city.location}</h2>
-  //   {/* <h2>{city.overview}</h2> */}
-  //   <img src={city.image} alt={city.location}/>
-  //  </div> 
+  
   <>
-  {/* <div class="container" style={{marginTop:"10px",marginLeft:"0%",backgroundColor:"Blue" }}> */}
+
   <div class="row" key={city.id}>
     <div class="col" ><img src={city.image} alt={city.location} style={{width:"250px"}}/></div>
     <div class="col" style={{marginTop:"4%",fontSize:"30px",marginLeft:"4%"}}>{city.country}</div>
-    {/* <div class="col"></div> */}
+   
     <div class="col" style={{marginTop:"4%",fontSize:"30px",marginLeft:"4%"}}>{city.location}</div>
     <div class="col" style={{marginTop:"4%",fontSize:"30px",marginLeft:"40px"}}>Rs. {holidayPrice}</div>
 
     <div class="col" style={{marginTop:"3%"}}><button class="btn-5" onClick={()=>navigate("/dform",{state:holidayPrice})}>Book Now</button></div>
   </div>
-{/* </div> */}
+
 </>
   )})
 

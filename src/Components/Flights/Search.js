@@ -157,12 +157,7 @@ function Search() {
                       );
                     })}
                   </div>
-                  {/* <input
-                    type="text"
-                    placeholder="Enter origin city"
-                    className="form-control mt-4"
-                    onChange={(e) => setOriginCity(e.target.value)}
-                  /> */}
+                 
                   <Form.Group as={Col} controlId="formGridState" >
           <Form.Label>Origin</Form.Label>
           <Form.Select defaultValue="Choose..." onChange={(e) => setOriginCity(e.target.value)}>
@@ -175,12 +170,7 @@ function Search() {
 
           </Form.Select>
         </Form.Group>
-                  {/* <input
-                    type="text"
-                    placeholder="Enter destination city"
-                    className="form-control mt-2"
-                    onChange={(e) => setDestinationCity(e.target.value)}
-                  /> */}
+                 
                   <Form.Group as={Col} controlId="formGridState">
           <Form.Label>Destination</Form.Label>
           <Form.Select defaultValue="Choose..." onChange={(e) => setDestinationCity(e.target.value)}>
@@ -255,17 +245,10 @@ function Search() {
                       fontWeight: "bold",
                     }}
                   >
-                    {/* Refine flight search */}
+                 
                   </div>
                   <div className="mt-4 mb-4">
-                    {/* <InputRange
-                      minValue={0}
-                      step={100}
-                      maxValue={10000}
-                      formatLabel={(price) => `${price}`}
-                      value={priceRange}
-                      onChange={(price) => setPriceRange(price)}
-                    /> */}
+                    
                   </div>
                 </div>
               </div>

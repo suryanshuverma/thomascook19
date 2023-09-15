@@ -6,38 +6,22 @@ import { useNavigate } from "react-router-dom";
 const SearchItem = (props) => {
 const item=props.hotelData
 
-    // const fetchHotelByLocation = async()=>{
-    //       const response2 =   await privateAxios.get(`http://localhost:8080/api/hotel/location?locationId=${props.id}`)
-    //         // .then((response)=>console.log(response.data.hotels))
-    //         const result2= await response2.data.hotels;
-    //         console.log(result2);
-
-
-    //         }
     const navigate = useNavigate();
-
     const handleSubmit =(hotelId)=>{
-     
-      
       navigate("/hotels/list/hotelPages",{ state: { hotelId}})
-     
-
-    }
+      }
             
            
        
   return (
     <>
-   
-      
-  
+ 
     <div className="searchItem">
      <img
         src="https://cf.bstatic.com/xdata/images/hotel/square600/261707778.webp?k=fa6b6128468ec15e81f7d076b6f2473fa3a80c255582f155cae35f9edbffdd78&o=&s=1"
         alt=""
         className="siImg"
       />
-     
      
       <div className="siDesc">
         <h1 className="siTitle">{item.name}</h1>

@@ -5,8 +5,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
 import "./login.css"
-import backImg from "../../assets/backImg.jpg"
-import frontImg from "../../assets/frontImg.jpg"
+
 const Login = () => {
     const [loginDetail, setLoginDetail] = useState({
         emailId: "",
@@ -70,14 +69,7 @@ const Login = () => {
     }
   return (
     <>
-    {/* Enter Email: <input type="email" value={loginDetail.emailId}  
-     onChange={(e) => handleChange(e, "emailId")}/>
-    Enter  password: <input type="password" value={loginDetail.password}
-         onChange={(e) => handleChange(e, "password")}/>
-    Enter Role: <input type="text" value={loginDetail.role} 
-         onChange={(e) => handleChange(e, "role")}/>
-         <button onClick={handleSubmit}>Submit</button>
-  */}
+
   <div className='cont'>
  <div class="login-box">
         <div class="login-header">

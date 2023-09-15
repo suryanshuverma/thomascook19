@@ -6,23 +6,7 @@ import "./Register.css"
 import { ToastContainer, toast } from 'react-toastify';
 
 const Register = () => {
-  // const [formData,setFormData] = useState({
-  //   firstName: "",
-  //   lastName: "",
-  //   age: "",
-  //   emailId:"",
-  //   password: "",
-  // }) 
-  // const [data,setData] = useState([]);
-
-  // const [firstName,lastName,age,emailId,password] = formData;
-  // const handleChange = (e) =>{
-  // setFormData({...formData, [e.target.name]:e.target.value })
-  // }
-  // const handleSubmit = (e)=>{
-  //   e.preventDefault();
-  //   setData([...data,formData]);
-  // }
+  
  const data = {
   firstName:"",
    lastName:"",
